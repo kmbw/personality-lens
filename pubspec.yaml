@@ -1,0 +1,51 @@
+name: personality_lens
+description: "A new Flutter project for 16-type personality test."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+# Version and build number for the application.
+version: 1.0.0+1
+
+# Environment settings
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+  # Use window_manager for desktop window control (replaces window_size)
+  window_manager: ^0.3.7
+  # Cupertino Icons for iOS-style icons
+  cupertino_icons: ^1.0.8
+
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Lints for better coding practices
+  flutter_lints: ^4.0.0
+
+# Optional: If you still want to use the Git-based window_size plugin
+# (Note: This might conflict with window_manager; use one or the other)
+# dependency_overrides:
+#   window_size:
+#     git:
+#       url: https://github.com/google/flutter-desktop-embedding.git
+#       path: plugins/window_size
+
+# Flutter-specific configuration
+flutter:
+  # Enable Material Design icons
+  uses-material-design: true
+
+  # Uncomment and add assets if needed (e.g., for images or test data)
+  # assets:
+  #   - assets/questions.json
+
+  # Uncomment and add fonts if needed
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
